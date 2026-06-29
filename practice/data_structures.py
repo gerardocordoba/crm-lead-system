@@ -1,6 +1,3 @@
-# CRM Lead Variables
-
-
 leads_today = ["Carlos Nunez", "Maria Lopez", "Juan Perez", "Ana Torres"]
 crm_channels = ("branch", "call_center", "digital", "referral")
 lead = {
