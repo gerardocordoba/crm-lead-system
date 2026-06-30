@@ -1,25 +1,16 @@
 # CRM Lead Variables
 
+cif = 123
+name = "Carlos Nunez"
+product = "POS"
+segment = "Micro"
+municipio = "San Pedro Sula"
+departamento = "Cortés"
+commercial_name = "Patitos Store"
+informal_business = True
+monthly_sales = 10000.00
 
-leads_today = ["Carlos Nunez", "Maria Lopez", "Juan Perez", "Ana Torres"]
-crm_channels = ("branch", "call_center", "digital", "referral")
-lead = {
-    "cif": 123,
-    "name": "Carlos Nunez",
-    "product": "POS",
-    "segment": "Micro",
-    "score": 87,
-    "is_eligible": True,
-    "monthly_sales": 10000.00
-}
-products_applied = {"POS", "personal_loan", "POS", "credit_card"}
+print(f"{name} company {commercial_name} is located in {municipio}, {departamento} and has monthly sales of ${monthly_sales}")
+print(f"it is a {segment} business that wants a {product}")
+print(f"Informal business: {informal_business}")
 
-print(leads_today)
-print(crm_channels)
-print(lead)
-print(products_applied)
-
-print(type(leads_today))
-print(type(crm_channels))
-print(type(lead))
-print(type(products_applied))
